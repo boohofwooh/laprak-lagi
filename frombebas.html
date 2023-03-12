@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Pendaftaran Kunjungan Wisata</title>
+    </head>
+    <style>
+        .button-34 {
+        background: #5E5DF0;
+        border-radius: 999px;
+        box-shadow: #5E5DF0 0 10px 20px -10px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        opacity: 1;
+        outline: 0 solid transparent;
+        padding: 8px 18px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: fit-content;
+        word-break: break-word;
+        border: 0;
+        }
+        .header{
+            display: flex;
+            align-items: center;
+            color : white;
+            font-size: 20;
+            font-family: Verdana;
+            margin-top: 25;
+            margin-left: 10;
+        }
+    </style>
+    <body style="background: url(https://w0.peakpx.com/wallpaper/1014/812/HD-wallpaper-video-game-genshin-impact-inazuma-genshin-impact.jpg); background-size: 100% 100%">
+        <div class="header">
+            <img src="logo.png" class="logo" width="70" height="60">&nbsp;&nbsp;
+            <h3>DINAS PARIWISATA INAZUMA BUDAK RAIDEN SHOGUN</h3>
+          </div>
+          <br><br>
+          <center>
+          <fieldset style="width: 50%; background-color: rgba(0, 0, 0, .7); border-radius: 10%;">
+            <form style="margin-top: auto; margin-bottom: 15" align="center" size="80%">
+                <legend style="color:white; font-size:15; font-family: Verdana; margin-top:15; margin-bottom: 15;" align="center"><h2>PENDAFTARAN KUNJUNGAN WISATA</h2></legend>
+                <hr size="5" color="white">
+                <p style="color: white">Nama Lengkap&nbsp;:</p>
+                <input style="font-family: Geneva ;" type="texts" name="nama" size="40%">
+                <p style="color: white">Tempat, Tanggal Lahir&nbsp;:</p>
+                <input style="font-family: Geneva;" type="text" name="ttl" size="15%">&nbsp;&nbsp;<input style="font-family: Geneva;" type="date" value="dd/mm/yy" name="ttl">
+                <p style="color: white">Asal Region&nbsp;:</p>
+                <input style="font-family: Geneva;" type="text" name="region" size="40%">
+                <p style="color: white">Jenis Kelamin&nbsp;:&nbsp;&nbsp;<input type="radio" name="sex" value="pria">Pria&nbsp;&nbsp;<input type="radio" name="sex" value="wanita">Wanita</p>
+                <p style="color: white">Pulau Tujuan&nbsp;:&nbsp;&nbsp;<select name="pulau">
+                    <option value="narukami">Narukami Island</option>
+                    <option value="kannazuka">Kannazuka</option>
+                    <option value="yashiori">Yashiori Island</option>
+                    <option value="seirai">Seirai Island</option>
+                    <option value="tsurumi">Tsurumi Island</option>
+                    <option value="watatsumi">Watatsumi Island</option>
+                </select></p>
+                <p style="color: white">Upload Foto Diri:</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input style="color: white" type="file" id="myFile" name="filename">
+            </form>
+        </fieldset>
+        </form>
+        <br><br>
+        <fieldset style="background-color: 482953; width: 55%; border-radius: 40%;; border-color: 8c6596;" align="center">
+            <form style="margin-bottom: 30;">
+            <br>
+                <h2 style="color: white;font-family: Verdana;">LAYANAN TOUR GUIDE</h2>
+            <hr size="5" color="white" style="margin-top: -1;margin-bottom: 3;" width="350">
+            <p style="color: white;margin-bottom: 20;">Maksimal memilih 2</p>
+            <input type="checkbox" name="turgd" id="thoma">
+            <label for="thoma"><img src="https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Thoma_Icon.png" width="100"/></label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="turgd" id="ayato">
+            <label for="ayato"><img src="https://static.wikia.nocookie.net/gensin-impact/images/2/27/Kamisato_Ayato_Icon.png" width="100"/></label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="turgd" id="arataki">
+            <label for="arataki"><img src="https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Arataki_Itto_Icon.png" width="100"/></label><br><br><br>
+            <input type="checkbox" name="turgd" id="yae"><label for="yae"><img src="https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Yae_Miko_Icon.png" width="100"/></label>
+            <input type="checkbox" name="turgd" id="ayaya"><label for="ayaya"><img src="https://static.wikia.nocookie.net/gensin-impact/images/5/51/Kamisato_Ayaka_Icon.png" width="100"/></label>
+            <input type="checkbox" name="turgd" id="kokomi"><label for="kokomi"><img src="https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Sangonomiya_Kokomi_Icon.png" width="100"/></label>
+            </form>
+            <button class="button-34" role="button">SUBMIT</button>
+        </fieldset>
+        </center>
+    </body>
+</html>
